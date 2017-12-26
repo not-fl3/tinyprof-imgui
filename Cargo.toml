@@ -1,0 +1,16 @@
+[package]
+name = "tinyprof_imgui"
+description = "The imgui frontend for tinyprof"
+repository = "https://github.com/tinyprof/tinyprof-imgui.git"
+keywords = ["imgui", "frontend", "tinyprof"]
+authors = [
+    "not.fl3@gmail.com",
+    "freecoder.xx@gmail.com"
+]
+license = "MIT"
+version = "0.0.1"
+
+[dependencies]
+tinyprof = { git = "https://github.com/tinyprof/tinyprof" }
+lazysort = "0.2.0"
+imgui = "0.0.17"
